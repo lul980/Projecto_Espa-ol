@@ -1,0 +1,164 @@
+header img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+.negro{color:black}
+body {
+    height: 125vh;
+    background-color:white;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color:rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(25, 30, 120);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Initial font size */
+    transition: font-size 0.3s, text-shadow 0.3s; /* Add transition for smooth animation */
+    text-shadow: 0px 0px 0px black;
+    
+}
+
+/* Add hover effect for the text size */
+header li:hover a {
+    font-size: 20px; /* Adjust the font size on hover */
+    text-shadow: 2px 2px 2px black;
+    color: #8ecae6;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.centerimg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.img center {display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+h1{
+    font-size:50pt;
+}
+
+table{
+    font-size:30pt;
+}
+
+table{
+    text-align: center;
+}
+
+#colorText
+{
+ color:#219ebc;
+}
+#colorText2{
+    color: #023047;
+}
+
+#textHover
+{
+ color: #8ecae6;
+ text-decoration: underline;
+}
+
+table, th, td 
+{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    padding: 5px;
+}
+
+table 
+{
+    margin: 0 auto;
+    
+}
+
+.box {
+    width: 3em;
+    padding: 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    font-family: 'Radio Canada';
+    text-align: center;
+    color:aliceblue;
+   
+    font-size: 70px;
+    box-shadow: 4px 4px 3px #444;
+    
+    
+}
+.box2 {
+    width: 3em;
+    padding: 0px 160px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    font-family: 'Radio Canada';
+    text-align: center;
+    color:aliceblue;
+    flex-direction: column;
+    font-size: 70px;
+    box-shadow: 4px 4px 3px #444;
+
+}
+
+.box3 {
+    width: 3em;
+    padding: 0px 30px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    font-family: 'Radio Canada';
+    text-align: center;
+    color:aliceblue;
+   
+    font-size: 70px;
+    box-shadow: 4px 4px 3px #444;
+    
+    
+}
+
+h2{
+    color: #023047;
+}
